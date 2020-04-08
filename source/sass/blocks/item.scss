@@ -1,0 +1,38 @@
+.item__title {
+  font-size: 16px;
+  line-height: 20px;
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.item__name {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Arial", sans-serif;
+  color: #444444;
+  font-weight: 400;
+}
+
+.item__value {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Arial", sans-serif;
+  color: #444444;
+  font-weight: 400;
+}
+
+.item__button {
+  padding: 13px 108px 13px 111px;
+  background-color: #68b738;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  display: block;
+  box-sizing: border-box;
+  width: 280px;
+  margin: 0 auto;
+}

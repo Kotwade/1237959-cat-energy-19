@@ -1,3 +1,11 @@
-body {
-  background-color: green;
-}
+@import "./scaffolding.scss";
+@import "./blocks/page-header.scss";
+@import "./blocks/main.scss";
+@import "./blocks/programm.scss";
+@import "./blocks/works.scss";
+@import "./blocks/page-footer.scss";
+@import "./blocks/social.scss";
+@import "./blocks/catalog.scss";
+@import "./blocks/item.scss";
+@import "./blocks/show.scss";
+@import "./blocks/main-nav.scss";
