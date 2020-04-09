@@ -2,13 +2,12 @@
   font-size: 36px;
   line-height: 60px;
   font-weight: 400;
-  color: #111111;
+  color: $dark;
   padding-left: 20px;
 }
 
 .works__list {
-  list-style: none;
-  padding: 0;
+  @include list;
 }
 
 .works__item {
@@ -16,5 +15,5 @@
   padding-bottom: 30px;
   padding-right: 27px;
   padding-left: 100px;
-  color: #444444;
+  color: $light-dark;
 }

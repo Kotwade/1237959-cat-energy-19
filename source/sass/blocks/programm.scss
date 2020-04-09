@@ -1,5 +1,5 @@
 .programm__loss-gain {
-  background-color: #f2f2f2;
+  background-color: $grey;
   width: 280px;
   margin: 0 auto;
 }
@@ -7,14 +7,14 @@
 .programm__title {
   font-size: 24px;
   line-height: 37px;
-  color: #111111;
+  color: $dark;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
 }
 
 .programm__text {
-  color: #444444;
+  color: $light-dark;
   font-family: "Arial", sans-serif;
   padding-left: 20px;
   padding-right: 35px;
@@ -26,6 +26,6 @@
   font-weight: 400;
   text-decoration: none;
   text-transform: uppercase;
-  color: #111111;
+  color: $dark;
   padding-left: 20px;
 }

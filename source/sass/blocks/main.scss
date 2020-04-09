@@ -9,7 +9,7 @@
   line-height: 36px;
   font-weight: 400;
   text-align: center;
-  color: #ffffff;
+  color: $white;
 }
 
 .main__slogan {
@@ -17,7 +17,7 @@
   line-height: 14px;
   text-transform: uppercase;
   text-align: center;
-  color: #ffffff;
+  color: $white;
 }
 
 .main__chicken {
@@ -26,14 +26,7 @@
 }
 
 .main__pick-up {
-  color: #ffffff;
-  background-color: #68b738;
-  font-weight: 400;
-  text-decoration: none;
-  text-transform: uppercase;
   padding: 15px 70px;
-  display: block;
-  margin: 0 auto;
-  box-sizing: border-box;
-  width: 280px;
+  font-size: 14px;
+  line-height: 18px;
 }
