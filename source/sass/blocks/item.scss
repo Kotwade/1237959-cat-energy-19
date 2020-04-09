@@ -1,0 +1,23 @@
+.item__title {
+  font-size: 16px;
+  line-height: 20px;
+  color: $dark;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.item__name {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Arial", sans-serif;
+  color: $light-dark;
+  font-weight: 400;
+}
+
+.item__value {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Arial", sans-serif;
+  color: $light-dark;
+  font-weight: 400;
+}

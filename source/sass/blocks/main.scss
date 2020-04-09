@@ -1,0 +1,32 @@
+.main {
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.main__title {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+  color: $white;
+}
+
+.main__slogan {
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: $white;
+}
+
+.main__chicken {
+  display: block;
+  margin: 0 auto;
+}
+
+.main__pick-up {
+  padding: 15px 70px;
+  font-size: 14px;
+  line-height: 18px;
+}

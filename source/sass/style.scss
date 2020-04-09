@@ -1,3 +1,15 @@
-body {
-  background-color: green;
-}
+@import "./variables.scss";
+@import "./mixins.scss";
+@import "./fonts.scss";
+@import "./scaffolding.scss";
+@import "./blocks/button.scss";
+@import "./blocks/page-header.scss";
+@import "./blocks/main.scss";
+@import "./blocks/programm.scss";
+@import "./blocks/works.scss";
+@import "./blocks/page-footer.scss";
+@import "./blocks/social.scss";
+@import "./blocks/catalog.scss";
+@import "./blocks/item.scss";
+@import "./blocks/show.scss";
+@import "./blocks/main-nav.scss";

@@ -1,0 +1,7 @@
+.social__list {
+  @include list;
+  display: flex;
+  justify-content: space-between;
+  width: 127px;
+  margin: 37px auto;
+}

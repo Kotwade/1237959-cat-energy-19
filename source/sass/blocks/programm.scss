@@ -1,0 +1,31 @@
+.programm__loss-gain {
+  background-color: $grey;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.programm__title {
+  font-size: 24px;
+  line-height: 37px;
+  color: $dark;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.programm__text {
+  color: $light-dark;
+  font-family: "Arial", sans-serif;
+  padding-left: 20px;
+  padding-right: 35px;
+}
+
+.programm__link {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $dark;
+  padding-left: 20px;
+}

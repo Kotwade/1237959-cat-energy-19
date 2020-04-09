@@ -1,0 +1,18 @@
+.page-footer__name-logo {
+  display: block;
+  width: 130px;
+  margin: 0 auto;
+}
+
+.page-footer__copyright {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-footer__copyright-text {
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "Arial", sans-serif;
+  color: $light-dark;
+  text-decoration: none;
+}
