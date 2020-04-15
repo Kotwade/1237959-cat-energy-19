@@ -1,0 +1,20 @@
+.item-goods__title {
+  font-size: 16px;
+  line-height: 16px;
+  color: $midle-dark;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.item-goods__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-goods__text {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  color: $light-dark;
+  font-weight: 400;
+}
