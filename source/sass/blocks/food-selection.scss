@@ -1,0 +1,34 @@
+.food-selection__title {
+  font-size: 36px;
+  line-height: 60px;
+  color: $dark;
+  font-weight: 400;
+}
+
+.food-selection__text {
+  font-size: 14px;
+  line-height: 18px;
+  color: $dark;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.food-selection__title-form {
+  font-size: 24px;
+  line-height: 24px;
+  color: $dark;
+  font-weight: 400;
+}
+
+.food-selection__button {
+  padding: 13px 57px;
+  border: none;
+}
+
+.food-selection__footnote {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: $light-dark;
+}

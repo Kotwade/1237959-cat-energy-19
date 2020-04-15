@@ -1,0 +1,21 @@
+.address__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+}
+
+.address__call {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $dark;
+  text-transform: uppercase;
+}
+
+.address__text {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: $light-dark;
+  font-weight: 400;
+}
