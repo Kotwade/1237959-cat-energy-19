@@ -4,6 +4,11 @@
   color: $dark;
   text-transform: uppercase;
   font-weight: 400;
+  width: 72px;
+}
+
+.item__list {
+  width: 142px;
 }
 
 .item__name {
@@ -20,4 +25,34 @@
   font-family: "Arial", sans-serif;
   color: $light-dark;
   font-weight: 400;
+}
+
+@media (min-width: $tablet-width) {
+  .item__title {
+    width: 126px;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .item__wrapper {
+    margin: 0 auto;
+  }
+
+  .item__list {
+    width: 250px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .item__button {
+    width: 170px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 55px;
+  }
+
+  .item__list {
+    width: 170px;
+  }
 }

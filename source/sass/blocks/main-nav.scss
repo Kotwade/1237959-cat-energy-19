@@ -1,4 +1,11 @@
 .main-nav__toggle {
   border: none;
   background-color: transparent;
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__toggle {
+    display: none;
+  }
 }
