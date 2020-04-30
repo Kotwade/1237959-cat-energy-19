@@ -1,3 +1,8 @@
+.works__wrapper {
+  width: 275px;
+  margin: 0 auto;
+}
+
 .works__title {
   font-size: 36px;
   line-height: 60px;
@@ -13,7 +18,37 @@
 .works__item {
   font-family: "Arial", sans-serif;
   padding-bottom: 30px;
-  padding-right: 27px;
   padding-left: 100px;
   color: $light-dark;
+}
+
+@media (min-width: $tablet-width) {
+  .works__wrapper {
+    width: 630px;
+  }
+
+  .works__title {
+    padding: 0;
+    font-size: 60px;
+  }
+
+  .works__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .works__item {
+    padding: 0;
+    margin-top: 100px;
+    width: 222px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .works__wrapper {
+    width: 1220px;
+  }
 }
