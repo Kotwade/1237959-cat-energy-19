@@ -18,3 +18,57 @@
   color: $light-dark;
   font-weight: 400;
 }
+
+@media (min-width: $tablet-width) {
+  .item-goods__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .item-goods__title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .item-goods__text {
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 50px;
+  }
+
+  .item-goods__text:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .item-goods__button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .item-goods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .item-goods__container {
+    width: 614px;
+    margin-right: 20px;
+  }
+
+  .item-goods__wrapper {
+    align-self: center;
+  }
+
+  .item-goods__text {
+    margin-right: 114px;
+  }
+
+  .item-goods__button {
+    width: 295px;
+    padding: 13px 0;
+    margin: 0;
+  }
+}

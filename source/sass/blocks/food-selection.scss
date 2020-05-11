@@ -1,3 +1,8 @@
+.food-selection {
+  width: 280px;
+  margin: 0 auto;
+}
+
 .food-selection__title {
   font-size: 36px;
   line-height: 60px;
@@ -31,4 +36,58 @@
   line-height: 16px;
   font-weight: 400;
   color: $light-dark;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .food-selection {
+    width: 708px;
+  }
+
+  .food-selection__title {
+    font-size: 60px;
+  }
+
+  .food-selection__wrapper {
+    width: 632px;
+    margin: 0 auto;
+  }
+
+  .food-selection__text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .food-selection__title-form {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .food-selection__footer {
+    display: flex;
+  }
+
+  .food-selection__button {
+    margin: 0;
+    margin-right: 62px;
+  }
+
+  .food-selection__footnote {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .food-selection {
+    width: 1220px;
+  }
+
+  .food-selection__wrapper {
+    width: 1220px;
+  }
+
+  .food-selection__button {
+    width: 570px;
+    text-align: center;
+  }
 }

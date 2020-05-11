@@ -21,3 +21,49 @@
   font-weight: 400;
   text-transform: uppercase;
 }
+
+.form__item {
+  margin: 14px 0;
+}
+
+@media (min-width: $tablet-width) {
+  .form__label {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .form__input {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .form__textarea {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .form__checkbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .form__item--checkbox {
+    width: 220px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form__base {
+    width: 570px;
+  }
+
+  .form__radio {
+    width: 570px;
+  }
+}
