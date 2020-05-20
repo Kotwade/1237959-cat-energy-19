@@ -1,7 +1,13 @@
+.main-nav {
+  position: relative;
+}
+
 .main-nav__toggle {
+  position: absolute;
   border: none;
   background-color: transparent;
-  display: none;
+  top: -40px;
+  right: -30px;
 }
 
 @media (min-width: $tablet-width) {

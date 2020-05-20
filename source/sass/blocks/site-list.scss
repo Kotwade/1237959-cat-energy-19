@@ -1,12 +1,12 @@
 .site-list {
   @include list;
   text-align: center;
-  width: 183px;
   margin: 0 auto;
 }
 
 .site-list__item {
   padding: 25px 0;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .site-list__item a {
@@ -27,6 +27,7 @@
 
   .site-list__item {
     padding: 20px 0;
+    border: none;
   }
 
   .site-list__item a {
