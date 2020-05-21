@@ -60,10 +60,10 @@
   .catalog__container {
     width: 245px;
     margin-right: 40px;
-  }
 
-  .catalog__container:nth-child(4n) {
-    margin-right: 0;
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
   }
 
   .catalog__item {

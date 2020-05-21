@@ -13,16 +13,16 @@
   text-transform: uppercase;
   color: $dark;
   text-align: center;
-}
 
-.show__title::before {
-  position: absolute;
-  content: "";
-  width: 30px;
-  height: 30px;
-  top: -50px;
-  right: 130px;
-  background-image: url("../img/icon-plus-mobile.svg");
+  &::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    top: -50px;
+    right: 130px;
+    background-image: url("../img/icon-plus-mobile.svg");
+  }
 }
 
 .show__text {
@@ -55,14 +55,14 @@
     box-sizing: border-box;
     font-size: 20px;
     text-align: center;
-  }
 
-  .show__title::before {
-    width: 60px;
-    height: 60px;
-    top: -70px;
-    right: 40px;
-    background-image: url("../img/icon-plus.svg");
+    &::before {
+      width: 60px;
+      height: 60px;
+      top: -70px;
+      right: 40px;
+      background-image: url("../img/icon-plus.svg");
+    }
   }
 
   .show__text {

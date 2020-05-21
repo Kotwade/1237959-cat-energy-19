@@ -21,27 +21,27 @@
   padding-bottom: 30px;
   padding-left: 75px;
   color: $light-dark;
-}
 
-.works__item p {
-  padding: 0;
-  margin: 0;
+  p {
+    padding: 0;
+    margin: 0;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 60px;
+    top: 0;
+    right: 215px;
+    background-color: $green;
+  }
 }
 
 .works__item-image {
   position: absolute;
   top: 5px;
   right: 220px;
-}
-
-.works__item::before {
-  position: absolute;
-  content: "";
-  width: 60px;
-  height: 60px;
-  top: 0;
-  right: 215px;
-  background-color: $green;
 }
 
 @media (min-width: $tablet-width) {
@@ -68,42 +68,44 @@
     width: 245px;
     font-size: 16px;
     line-height: 24px;
-  }
 
-  .works__item:nth-child(2n) {
-    margin-right: 0;
-  }
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
 
-  .works__item--third {
-    margin-top: 170px;
-  }
+    &--third {
+      margin-top: 170px;
+    }
 
-  .works__item--fourth {
-    margin-top: 170px;
+    &--fourth {
+      margin-top: 170px;
+    }
+
+    &::before {
+      top: -110px;
+      right: 165px;
+      width: 80px;
+      height: 80px;
+    }
+
+    &::after {
+      position: absolute;
+      counter-increment: myCounter;
+      content: counter(myCounter);
+      font-family: "Oswald", "Arial", sans-serif;
+      font-weight: 400;
+      font-size: 281px;
+      line-height: 281px;
+      top: -150px;
+      right: -30px;
+      color: $grey;
+      z-index: -1;
+    }
   }
 
   .works__item-image {
     top: -95px;
     right: 180px;
-  }
-
-  .works__item::before {
-    top: -110px;
-    right: 165px;
-    width: 80px;
-    height: 80px;
-  }
-
-  .works__item::after {
-    position: absolute;
-    counter-increment: myCounter;
-    content: counter(myCounter);
-    font-size: 281px;
-    line-height: 281px;
-    top: -150px;
-    right: -30px;
-    color: $grey;
-    z-index: -1;
   }
 }
 
@@ -122,13 +124,13 @@
 
   .works__item {
     margin-right: 0;
-  }
 
-  .works__item--third {
-    margin-top: 140px;
-  }
+    &--third {
+      margin-top: 140px;
+    }
 
-  .works__item--fourth {
-    margin-top: 140px;
+    &--fourth {
+      margin-top: 140px;
+    }
   }
 }
