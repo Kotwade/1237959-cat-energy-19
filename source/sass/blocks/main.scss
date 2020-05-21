@@ -31,6 +31,7 @@
   padding: 15px 70px;
   font-size: 14px;
   line-height: 18px;
+  margin-top: 40px;
 }
 
 @media (min-width: $tablet-width) {
@@ -39,6 +40,8 @@
     width: 418px;
     flex-direction: column;
     background-image: none;
+    margin-top: 30px;
+    padding-right: 110px;
   }
 
   .main__title {
@@ -66,19 +69,23 @@
   .main__pick-up {
     margin: 20px 0;
     z-index: 2;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 20px 20px;
+    text-align: center;
   }
 }
 
 @media (min-width: $desktop-width) {
   .main {
-    width: 1120px;
-    margin: 115px auto 0;
+    width: 940px;
+    margin: 85px auto 0;
     position: relative;
   }
 
   .main__chicken {
     position: absolute;
     top: 0;
-    right: 250px;
+    right: 150px;
   }
 }

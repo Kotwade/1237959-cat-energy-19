@@ -1,25 +1,39 @@
 .show {
   width: 280px;
+  padding-top: 100px;
 }
 
 .show__title {
+  position: relative;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
   text-transform: uppercase;
   color: $dark;
+  text-align: center;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    top: -50px;
+    right: 130px;
+    background-image: url("../img/icon-plus-mobile.svg");
+  }
 }
 
 .show__text {
   display: block;
-  margin: 0 auto;
+  margin: 5px auto 25px;
   font-size: 12px;
   line-height: 16px;
   font-family: "Arial", sans-serif;
   font-weight: 400;
   color: $light-dark;
+  text-align: center;
 }
 
 .show__button {
@@ -41,6 +55,14 @@
     box-sizing: border-box;
     font-size: 20px;
     text-align: center;
+
+    &::before {
+      width: 60px;
+      height: 60px;
+      top: -70px;
+      right: 40px;
+      background-image: url("../img/icon-plus.svg");
+    }
   }
 
   .show__text {

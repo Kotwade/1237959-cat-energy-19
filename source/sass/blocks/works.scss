@@ -8,7 +8,7 @@
   line-height: 60px;
   font-weight: 400;
   color: $dark;
-  padding-left: 20px;
+  padding-left: 0;
 }
 
 .works__list {
@@ -16,15 +16,37 @@
 }
 
 .works__item {
+  position: relative;
   font-family: "Arial", sans-serif;
   padding-bottom: 30px;
-  padding-left: 100px;
+  padding-left: 75px;
   color: $light-dark;
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 60px;
+    top: 0;
+    right: 215px;
+    background-color: $green;
+  }
+}
+
+.works__item-image {
+  position: absolute;
+  top: 5px;
+  right: 220px;
 }
 
 @media (min-width: $tablet-width) {
   .works__wrapper {
-    width: 630px;
+    width: 708px;
   }
 
   .works__title {
@@ -35,20 +57,80 @@
   .works__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    counter-reset: myCounter;
   }
 
   .works__item {
     padding: 0;
-    margin-top: 100px;
-    width: 222px;
+    margin-top: 140px;
+    margin-bottom: 75px;
+    margin-right: 142px;
+    width: 245px;
     font-size: 16px;
     line-height: 24px;
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+
+    &--third {
+      margin-top: 170px;
+    }
+
+    &--fourth {
+      margin-top: 170px;
+    }
+
+    &::before {
+      top: -110px;
+      right: 165px;
+      width: 80px;
+      height: 80px;
+    }
+
+    &::after {
+      position: absolute;
+      counter-increment: myCounter;
+      content: counter(myCounter);
+      font-family: "Oswald", "Arial", sans-serif;
+      font-weight: 400;
+      font-size: 281px;
+      line-height: 281px;
+      top: -150px;
+      right: -30px;
+      color: $grey;
+      z-index: -1;
+    }
+  }
+
+  .works__item-image {
+    top: -95px;
+    right: 180px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .works__wrapper {
     width: 1220px;
+  }
+
+  .works__title {
+    margin-top: 30px;
+  }
+
+  .works__list {
+    justify-content: space-between;
+  }
+
+  .works__item {
+    margin-right: 0;
+
+    &--third {
+      margin-top: 140px;
+    }
+
+    &--fourth {
+      margin-top: 140px;
+    }
   }
 }

@@ -5,6 +5,13 @@
   font-weight: 400;
   width: 280px;
   margin: 0 auto;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ededed;
+}
+
+.catalog__container {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 20px;
 }
 
 .catalog__item {
@@ -17,6 +24,8 @@
   .catalog__title {
     font-size: 60px;
     width: 708px;
+    border: none;
+    margin-top: 55px;
   }
 
   .catalog__wrapper {
@@ -33,6 +42,7 @@
     flex-direction: column;
     margin-bottom: 100px;
     background-color: $grey;
+    border: none;
   }
 
   .catalog__item {
@@ -44,15 +54,16 @@
 @media (min-width: $desktop-width) {
   .catalog__title {
     width: 1220px;
+    margin-top: 70px;
   }
 
   .catalog__container {
     width: 245px;
     margin-right: 40px;
-  }
 
-  .catalog__container:nth-child(4n) {
-    margin-right: 0;
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
   }
 
   .catalog__item {

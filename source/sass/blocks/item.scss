@@ -37,6 +37,11 @@
   .item__list {
     width: 250px;
     margin: 0 auto;
+    border-collapse: collapse;
+
+    td {
+      border-bottom: 1px solid #cdcdcd;
+    }
   }
 }
 
